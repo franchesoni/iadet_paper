@@ -104,8 +104,13 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-data/
-data
+data/**/*.pkl
+data/**/*.log
+data/**/*.pth
+data/*.tar
+data/VOCdevkit
+data/**/full_config.py
+# data
 .vscode
 .idea
 .DS_Store
@@ -122,3 +127,4 @@ work_dirs/
 *.pth
 *.py~
 *.sh~
+
