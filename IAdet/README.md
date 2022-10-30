@@ -1,9 +1,10 @@
 
 - add clear_curve_run.py to repo
+
 # IAdet paper code
 
+The steps below assume you have cloned the repository in your own machine. We will need a little hack: after installing the packages described in `IAdet/environment.yml`, we append the contents of `IAdet/custom_runner.py` to `path/to/conda/envs/mmlab/lib/python3.8/site-packages/mmcv/runner/epoch_based_runner.py`.
 
-The steps below assume you have cloned the repository in your own machine.
 
 ## Understanding the code
 The IAdet paper evaluates a simulated human in the loop to create bounding box annotations for single classes. The code here refers to the different runs made, which roughly involve:
